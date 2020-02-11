@@ -1,0 +1,20 @@
+Atividades Teóricas
+
+Atividade 3:
+	O algoritmo A* é uma modificação, ou extensão do algoritmo do algoritmo de Dijkstra. Dijkstra calcula primeiro os pesos
+do ponto de partida até todos os vértices adjacentes. Depois vai para a de menor peso e repete o processo até não sobrar nenhum
+vértice visitado, já o algoritmo A* inicia da mesma forma, considerando a "nota" de cada vértice além do peso das arestas,
+mas quando decide visitar o vértice com menor peso, ele não deixa de observar os outros vértices adjacentes ao visitado anteriormente
+visitando sempre o que tiver menor (nota + peso), se assemelhando em partes com a Busca em Largura, portanto, eu não diria que este
+algoritmo se utiliza de uma abordagem gulosa. É muito usado em jogos de estratégia por exemplo, já que o principal objetivo é encontrar
+o menor caminho. Caso um caminho tenha um número muito grande de possíveis "próximos passos", abrindo assim muitos nós no espaço de busca
+do algoritmo, ele não tem tanto valor, já que o algoritmo sempre irá "achar" que existe uma solução, mas ele irá levar muito tempo para
+encontrá-la, ou nunca irá encontrar, porém uma boa heurística aplicada permite que o algoritmo "desista" de caminhos com muitas opções
+o que acelera o resultado da busca, essa busca no pior caso é do tipo exponencial, mas no melhor caso torna-se polinomial.
+
+
+Atividade 4:
+	Colocaria peso em cada desafio, quanto mais desafiador, maior o peso, e melhor a recompensa. As porcentagens de chance devem ser
+administradas para cada peso de desafio, onde por exemplo, se separarmos itens em: Comum, Incomum, Raro, Épico, Lendário. Um desafio
+considerado difícil deveria considerar itens de nível Raro+, e desconsiderar totalmente itens Comuns, mas sem ter uma grande chance
+de que o jogador receba itens Lendários. Cada desafio tem sua respectiva faixa de itens possível.
