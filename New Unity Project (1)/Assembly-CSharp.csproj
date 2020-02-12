@@ -64,25 +64,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\enemyLife.cs" />
+    <Compile Include="Assets\exitScript.cs" />
+    <Compile Include="Assets\Finish.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\rollOneMove.cs" />
     <Compile Include="Assets\rollTwoMove.cs" />
     <Compile Include="Assets\Scenes\laserScript.cs" />
+    <Compile Include="Assets\Score.cs" />
+    <Compile Include="Assets\ScoreChange.cs" />
     <Compile Include="Assets\shoot.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/lider/OneDrive/Documentos/New Unity Project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
