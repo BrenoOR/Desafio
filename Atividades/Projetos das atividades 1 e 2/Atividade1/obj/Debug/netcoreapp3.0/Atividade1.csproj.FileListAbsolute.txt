@@ -1,0 +1,11 @@
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.exe
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.deps.json
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.runtimeconfig.json
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.runtimeconfig.dev.json
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.dll
+C:\Users\lider\VSCode\Cpp\Atividade1\bin\Debug\netcoreapp3.0\Atividade1.pdb
+C:\Users\lider\VSCode\Cpp\Atividade1\obj\Debug\netcoreapp3.0\Atividade1.csprojAssemblyReference.cache
+C:\Users\lider\VSCode\Cpp\Atividade1\obj\Debug\netcoreapp3.0\Atividade1.AssemblyInfoInputs.cache
+C:\Users\lider\VSCode\Cpp\Atividade1\obj\Debug\netcoreapp3.0\Atividade1.AssemblyInfo.cs
+C:\Users\lider\VSCode\Cpp\Atividade1\obj\Debug\netcoreapp3.0\Atividade1.dll
+C:\Users\lider\VSCode\Cpp\Atividade1\obj\Debug\netcoreapp3.0\Atividade1.pdb
