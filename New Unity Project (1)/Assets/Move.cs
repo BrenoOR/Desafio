@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Move : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class Move : MonoBehaviour
             {
                 transform.Translate(0.05f, 0, 0);
             }
+        } else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
         }
     }
 }

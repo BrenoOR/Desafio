@@ -167,10 +167,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &6275065
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -314,10 +314,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &67501315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -549,10 +549,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &78548591
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,10 +608,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &78548594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -843,10 +843,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &242215902
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,10 +990,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &279049369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,10 +1137,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &281356684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,10 +1332,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &347160152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1424,85 +1424,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &405673893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 405673894}
-  - component: {fileID: 405673896}
-  - component: {fileID: 405673895}
-  m_Layer: 5
-  m_Name: Game Controls
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &405673894
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405673893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 620737749}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -274.13, y: -145}
-  m_SizeDelta: {x: 211.73, y: 43.41}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &405673895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405673893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 1
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Use <- or -> to move.
-
-    Use Spacebar to shoot.'
---- !u!222 &405673896
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405673893}
-  m_CullTransparentMesh: 0
 --- !u!1 &444653031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,10 +1479,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &444653034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1735,7 +1656,7 @@ GameObject:
   - component: {fileID: 485239252}
   - component: {fileID: 485239254}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1753,7 +1674,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 620737749}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1813,7 +1734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  scene: {fileID: 1520736860}
 --- !u!1 &494197868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,10 +1789,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &494197871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2016,10 +1936,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &506944853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2251,10 +2171,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &542078255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2310,10 +2230,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &542078258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2545,10 +2465,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1001 &612992043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2685,7 +2605,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 462785964}
-  - {fileID: 405673894}
   - {fileID: 485239251}
   m_Father: {fileID: 1520736863}
   m_RootOrder: 0
@@ -2898,10 +2817,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!95 &741758898 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 844370284140169146, guid: 23f5c8d4b05bc8c44a84e414f57dbe19,
@@ -3042,10 +2961,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &769822592
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3189,10 +3108,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &803239309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3402,10 +3321,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &846908267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3637,10 +3556,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &911572376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,10 +3615,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &911572379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4051,10 +3970,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1149064691
 GameObject:
   m_ObjectHideFlags: 0
@@ -4318,10 +4237,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1180748763
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,10 +4296,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &1180748766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4612,10 +4531,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1520736860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4758,10 +4677,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &1582457540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4885,10 +4804,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &1785451380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5100,10 +5019,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1847656244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,10 +5166,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1931997076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5394,10 +5313,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &1985318485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5573,10 +5492,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 0
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!61 &2069722363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5808,10 +5727,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &2102144545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5955,10 +5874,10 @@ MonoBehaviour:
   vida: 100
   explosao: {fileID: 741758898}
   movingLeft: 1
-  counter: 0
   text: {fileID: 485239252}
   scoreText: {fileID: 485239254}
   enemyValue: 0
+  movingDown: 1
 --- !u!1 &2111873111
 GameObject:
   m_ObjectHideFlags: 0

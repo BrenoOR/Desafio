@@ -9,36 +9,38 @@ public class enemyLife : MonoBehaviour
     public int vida = 100;
     public Animator explosao;
     public bool movingLeft;
-    public float counter = 0f;
+    public float counterSide = 0f;
+    float counterUpDown = 0f;
     public Text text;
     public ScoreChange scoreText;
     public int enemyValue;
+    public bool movingDown;
 
     private void Start()
     {
         enemyValue = 10;
         if (movingLeft)
         {
-            if (counter < -5f)
+            if (counterSide < -5f)
             {
                 movingLeft = !movingLeft;
             }
             else
             {
                 startPos.transform.Translate(-0.01f, 0, 0);
-                counter = counter - 0.01f;
+                counterSide = counterSide - 0.01f;
             }
         }
         else
         {
-            if (counter > 5f)
+            if (counterSide > 5f)
             {
                 movingLeft = !movingLeft;
             }
             else
             {
                 startPos.transform.Translate(0.01f, 0, 0);
-                counter = counter + 0.01f;
+                counterSide = counterSide + 0.01f;
             }
         }
     }
@@ -47,27 +49,78 @@ public class enemyLife : MonoBehaviour
     {
         if (movingLeft)
         {
-            if (counter < -5f)
+            if (counterSide < -5f)
             {
                 movingLeft = !movingLeft;
             }
             else
             {
                 startPos.transform.Translate(-0.01f, 0, 0);
-                counter = counter - 0.01f;
-            }
+                counterSide = counterSide - 0.01f;
+                if ((counterSide < -5f) && (counterSide > -5.1f))
+                {
+                    if (movingDown)
+                    {
+                        if (counterUpDown < -2f)
+                        {
+                            movingDown = !movingDown;
+                        } else
+                        {
+                            startPos.transform.Translate(0, -0.1f, 0);
+                            counterUpDown = counterUpDown - 0.1f;
+                        }
+                    } else
+                    {
+                        if (counterUpDown > 2f)
+                        {
+                            movingDown = !movingDown;
+                        } else
+                        {
+                            startPos.transform.Translate(0, 0.1f, 0);
+                            counterUpDown = counterUpDown + 0.1f;
+                        }
+                    }
+                }
+            }            
         }
         else
         {
-            if (counter > 5f)
+            if (counterSide > 5f)
             {
                 movingLeft = !movingLeft;
             }
             else
             {
                 startPos.transform.Translate(0.01f, 0, 0);
-                counter = counter + 0.01f;
-            }
+                counterSide = counterSide + 0.01f;
+                if ((counterSide > 5f) && (counterSide < 5.1f))
+                {
+                    if (movingDown)
+                    {
+                        if (counterUpDown < -2f)
+                        {
+                            movingDown = !movingDown;
+                        }
+                        else
+                        {
+                            startPos.transform.Translate(0, -0.1f, 0);
+                            counterUpDown = counterUpDown - 0.1f;
+                        }
+                    }
+                    else
+                    {
+                        if (counterUpDown > 2f)
+                        {
+                            movingDown = !movingDown;
+                        }
+                        else
+                        {
+                            startPos.transform.Translate(0, 0.1f, 0);
+                            counterUpDown = counterUpDown + 0.1f;
+                        }
+                    }
+                }
+            }            
         }
     }
 

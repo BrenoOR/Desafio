@@ -10,8 +10,6 @@ public class ScoreChange : MonoBehaviour
 
     Text text;
 
-    public GameObject scene;
-
     // Start is called before the first frame update
     void Awake()
     {

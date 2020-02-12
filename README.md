@@ -10,3 +10,6 @@
 
 #Relatorio num. 2:
 	Implementei uma fase com pontuacao, nao esta tao bom, mas e algo que eu posso melhorar, decidi implementar logo ja que nao sei se ate amanha eu conseguiria entregar a fase do boss completa. Nao sei se o link do executavel ira funcionar corretamente, se nao, basta mudar as propriedades para a pasta em que o repositorio esta, e colar no final "New Unity Project (1)\ReleaseBuild".
+
+#Relatorio final:
+	Nao consegui terminar tudo o que desejava, mas temos uma base de um Space Invaders com Menu e uma fase simples. Caso o executavel nao funcione, basta mudar o caminho dele para o mesmo caminho do repositorio, e adicionar ao final "New Unity Project (1)\Release". Neste ultimo final, melhorei o movimento dos inimigos, e adicionei um menu simples.
